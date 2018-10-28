@@ -11,6 +11,12 @@ class Matrices(object):
 	def tamaño(self):
 		print("El tamaño de la matriz es: ", str(self.m), "x", str(self.n))
 
+	def filas(self):
+		return self.n
+
+	def columnas(self):
+		return self.m
+
 	def definir(self, ele):
 		for i in range(self.m):
 			piv = self.l0[i]
